@@ -8,12 +8,12 @@
 
 | COLOR          | CODIGO        |
 | -------------- | ------------- |
-| BLUE           | #014ba0       |
-| RED            | #A53933       |
-| YELLOW         | #FFE378       |
-| ORANGE         | #FF5527       |
-| WHITE          | #ffffff       |
-| BLACK          | #000000       |
+| BLUE           | ![LOGO](/img/blue-color.svg)       |
+| RED            | ![LOGO](/img/red-color.svg)      |
+| YELLOW         | ![LOGO](/img/yellow-color.svg)      |
+| ORANGE         | ![LOGO](/img/orange-color.svg)       |
+| WHITE          | ![LOGO](/img/white-color.svg)       |
+| BLACK          | ![LOGO](/img/black-color.svg)      |
 
 
 ## CHARACTERISTICS:
@@ -39,6 +39,13 @@
 | DESCRIPTION    | ![DESCRIPTION](/img/button-description.svg)|
 | CHECKBOX       | ![CHECKBOX](/img/button-state.svg)|
 
+
+## VERSIONS APP:
+
+### MOBILE VERSION:
+![MOBILE](/img/mobile-version.svg)
+### DESKTOP VERSION:
+![DESKTOP](/img/desktop-version.svg)
 
 
 
