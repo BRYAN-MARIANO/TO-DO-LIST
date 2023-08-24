@@ -10,6 +10,22 @@
 
 ![LOGO](/img/logo.svg)
 
+## AUTHOR:
+. [AUTHOR](https://github.com/BRYAN-MARIANO).
+
+## FILE STRUCTURE:
+![HTML](/img/icon-html.svg)
+![CSS](/img/icon-css.svg)
+![JAVASCRIPT](/img/icon-javascript.svg)
+![JSON](/img/icon-json.svg)
+![SASS](/img/icon-sass.svg)
+
+## TOLLS
+![FIGMA](/img/icon-figma.svg)
+![JIRA](/img/icon-jira.svg)
+![VSC](/img/icon-vsc.svg)
+![GITHUB](/img/icon-github.svg)
+
 ## COLOR PALETTE:
 
 | COLOR          | CODIGO        |
@@ -44,6 +60,10 @@
 | DELETE         | ![DELETE](/img/button-delete.svg)|
 | DESCRIPTION    | ![DESCRIPTION](/img/button-description.svg)|
 | CHECKBOX       | ![CHECKBOX](/img/button-state.svg)|
+
+## DESIGN IN FIGMA:
+DESIGN IN FIGMA OF THE PROJECT [FIGMA](https://www.figma.com/file/cifEXV15abLILWDFJua5mZ/TO-DO-LIST?type=design&node-id=68-1116&mode=design&t=SrzxPUHEv7G0jsd4-0).
+
 
 
 ## VERSIONS APP:
