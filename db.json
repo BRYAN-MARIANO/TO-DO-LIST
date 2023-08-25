@@ -1,44 +1,24 @@
 {
   "LIST": [
     {
-      "activity": "study",
-      "description": "description 1",
+      "activity": "STUDY",
+      "description": "STUDY PROGRAMMING",
       "id": 1
     },
     {
-      "activity": "read",
-      "description": "description 2",
+      "activity": "READ",
+      "description": "READ BOOK",
       "id": 2
     },
     {
-      "activity": "watch tv",
-      "description": "description 4 ",
+      "activity": "WATCH TV",
+      "description": "SEE MY SERIES ON TV AT 8:00 PM",
       "id": 4
     },
     {
-      "activity": "read",
-      "description": "description 5",
-      "id": 5
-    },
-    {
-      "activity": "study",
-      "description": "description 6",
-      "id": 6
-    },
-    {
-      "activity": "PLAYING SOCCER",
-      "description": "I GO TO THE PLAY SOCCER AT THE AFTERNOON",
-      "id": 7
-    },
-    {
-      "activity": "IR AL BANCO",
-      "description": "IR AL BANCO A DEPOSITAR DINERO",
+      "activity": "GO TO THE BANK",
+      "description": "GO TO THE BANK TO DEPOSIT MONEY",
       "id": 8
-    },
-    {
-      "activity": "read",
-      "description": "i like read",
-      "id": 9
     }
   ]
 }
