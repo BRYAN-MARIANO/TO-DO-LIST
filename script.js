@@ -109,7 +109,7 @@ document.addEventListener("submit", async (e) => {
         if (!res.ok) throw { status: res.status, statusText: res.statusText };
         location.reload();
       } catch (err) {
-        let message = err.statusText || "ocurrio error";
+        let message = err.statusText || "ERROR OCCURRED";
         form.insertAdjacentHTML(
           "afterend",
           `<p><b>Error ${err.status}: ${message}</b></p>`
@@ -121,7 +121,7 @@ document.addEventListener("submit", async (e) => {
 
 document.addEventListener("click", async (e) => {
   if (e.target.matches(".edit")) {
-    title.textContent = "EDIT ACTIVITY";
+    title.textContent = "EDIT TASK";
     const row = e.target.closest("tr");
     const activity = row.querySelector(".activity").textContent;
     const description = row.querySelector(".description").textContent;
@@ -132,7 +132,7 @@ document.addEventListener("click", async (e) => {
   }
   if (e.target.matches(".delete")) {
     let isDelete = confirm(
-      `ESTAS SEGURO DE ELIMINAR EL ELEMENTO ${e.target.dataset.id}?`
+      `ARE YOU SURE YOU WANT TO DELETE THE ELEMENT? ${e.target.dataset.id}?`
     );
 
     if (isDelete) {
@@ -150,7 +150,7 @@ document.addEventListener("click", async (e) => {
         json = await res.json();
         location.reload();
       } catch (err) {
-        let message = err.statusText || "ocurrio error";
+        let message = err.statusText || "ERROR OCCURRED";
         alert(`Error ${err.status}: ${message}`);
       }
     }

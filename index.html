@@ -17,13 +17,13 @@
     <section class="crud">
       <article class="crud__container-form">
         <form class="crud__form">
-          <h2 class="crud__title">ADD ACTIVITY</h2>
+          <h2 class="crud__title">ADD TASK</h2>
           <div class="crud__form-container">
             <input
               class="crud__form-input"
               type="text"
               name="activity"
-              placeholder="activity"
+              placeholder="TASK"
               required
             />
           </div>
@@ -32,11 +32,11 @@
               class="crud__form-input"
               type="text"
               name="description"
-              placeholder="description"
+              placeholder="DESCRIPTION"
               required
             />
           </div>
-          <input class="crud__form-button" type="submit" value="send" />
+          <input class="crud__form-button" type="submit" value="SEND" />
           <input type="hidden" name="id" />
         </form>
       </article>
@@ -44,10 +44,10 @@
         <table class="crud__table">
           <thead>
             <tr>
-              <th colspan="3"><h2>ALL LIST</h2></th>
+              <th colspan="3"><h2>ALL TASKS</h2></th>
             </tr>
             <tr>
-              <th>ACTIVITIES</th>
+              <th>TASKS</th>
               <th class="description-none">DESCRIPTION</th>
               <th>BUTTONS</th>
             </tr>
@@ -61,7 +61,7 @@
         class="contenedor crud__template-content"
         style="background-color: #014ba0; color: white"
       >
-        <td class="activity">ACTIVITY</td>
+        <td class="activity">TASK</td>
         <td class="description description-none">DESCRIPTION</td>
         <td class="crud__template-buttons">
           <input type="checkbox" name="check" id="check" />

@@ -26,9 +26,14 @@
       "id": 6
     },
     {
-      "activity": "play",
-      "description": "description 7",
+      "activity": "PLAYING SOCCER",
+      "description": "I GO TO THE PLAY SOCCER AT THE AFTERNOON",
       "id": 7
+    },
+    {
+      "activity": "IR AL BANCO",
+      "description": "IR AL BANCO A DEPOSITAR DINERO",
+      "id": 8
     }
   ]
 }

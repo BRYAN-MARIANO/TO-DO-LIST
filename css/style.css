@@ -34,12 +34,11 @@ body {
 }
 
 .crud {
-  margin-top: 15%;
+  margin-top: 5%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  overflow: auto;
 }
 .crud__container-form {
   height: 50vh;
@@ -103,10 +102,10 @@ body {
   margin-top: 5rem;
 }
 .crud__table td {
-  max-width: 1rem;
+  max-width: 50rem;
   overflow: auto;
   font-size: 3rem;
-  font-weight: 700;
+  word-wrap: break-word;
 }
 .crud__table__template-buttons {
   display: flex;
